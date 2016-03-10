@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">BloodShare</string>
+    <string name="parse_app_id">RzkfBhgMhTjgcofyV6FK6Da2KY4RvMEQYIYVPqvQ</string>
+    <string name="parse_client_key">gNT51iR8L0C7M2SjHO9PWgkUEDjFgj0BubJtEsmU</string>
+    <string name="facebook_app_id">1639805589637264</string>
+    <string name="maps_api_key">AIzaSyBYLhSh7X8s6qTmVzzoDT6pHNecAoWiTlg</string>
+    <string name="title_activity_app_logo">AppLogoActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="req_bld"><b>Request\nBlood</b></string>
+    <string name="nrby_evnt"><b>Nearby\nEvents</b></string>
+    <string name="req_bld_txt">In need of Blood?\nLets get u help from our\nkind blood donors community</string>
+    <string name="nrby_evnt_txt">"Nobody can do everything but,\neveryone can do something"\nshare blood - share life\nBecome a part of\nblood donor community</string>
+
+</resources>

@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:context=".MainActivity">
+    <item android:id="@+id/menu_sear_res_search"
+
+        android:icon="@drawable/ic_search_white_24dp"
+        android:title="Search"
+        app:showAsAction="always" />
+    <item android:id="@+id/menu_sear_res_list_view"
+        android:icon="@drawable/ic_sort_white_24dp"
+        android:title="Switch View"
+
+        app:showAsAction="always" />
+    <item android:id="@+id/menu_sear_res_home"
+        android:icon="@drawable/home1"
+        android:title="Home"
+        app:showAsAction="always" />
+
+</menu>

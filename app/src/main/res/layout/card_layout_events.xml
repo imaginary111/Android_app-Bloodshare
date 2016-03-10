@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/act_event_cardview">
+
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+            <ImageView android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="80dp"
+                android:layout_marginRight="3dp"
+                android:src="@drawable/default_user_pic"
+                android:id="@+id/cardview_event_pro_pic"/>
+
+            <LinearLayout android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/cardview_event_organiser"
+                    android:text="Deepika"
+                    android:textSize="25sp"/>
+                <LinearLayout android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="2dp">
+
+                    <TextView android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:id="@+id/cardview_event_location"
+                        android:text="Delhi"
+                        android:textSize="25sp"/>
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:gravity="center"
+                    android:id="@+id/cardview_event_eventdate"
+                    android:text="23rd August" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:gravity="center"
+                    android:id="@+id/cardview_event_distance"
+                    android:text="123 km" />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

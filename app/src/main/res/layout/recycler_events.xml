@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:id="@+id/toolbar_recycler_events"
+        android:layout_height="@dimen/abc_action_bar_default_height_material"
+        app:theme="@style/ToolbarColoredBackArrow"
+        android:background="@color/ColorPrimary">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:text="Events"
+            android:textColor="@color/white"
+            android:gravity="center"/>
+    </android.support.v7.widget.Toolbar>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:id="@+id/recycler_view_events"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:id="@+id/no_event_image"
+            android:padding="100dp"
+            android:src="@drawable/default_user_pic"/>
+        <com.rey.material.widget.ProgressView
+            android:layout_width="48dp"
+            android:layout_gravity="center"
+            android:layout_height="48dp"
+            android:id="@+id/event_progress"
+            app:pv_autostart="true"
+            app:pv_circular="true"
+            app:pv_progressMode="indeterminate"/>
+
+    </FrameLayout>
+
+</LinearLayout>

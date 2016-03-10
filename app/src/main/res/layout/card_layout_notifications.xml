@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:padding="5dp"
+xmlns:android="http://schemas.android.com/apk/res/android">
+
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+
+    android:id="@+id/act_notification_cardview">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="200dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:padding="2dp">
+            <com.blackpearl.bloodlines.CircularImageView
+                android:scaleType="fitCenter"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/default_user_pic"
+                android:id="@+id/cardview_notification_pro_pic" />
+
+            <RelativeLayout android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/cardview_notification_name"
+                    android:text="Deepika"
+                    android:textColor="@color/name_color"
+                    android:textSize="25sp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:padding="3dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:id="@+id/cardview_notification_distance"
+                    android:text="123 km"
+                    android:textColor="@color/white"
+                    android:background="@drawable/rounded_corner_grey"/>
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/cardview_notification_name"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:id="@+id/cardview_notification_sex_card"
+                    android:text="Female"
+                    android:textColor="#000"
+                    android:textSize="16sp"/>
+                <TextView android:layout_width="48dp"
+                    android:layout_height="81dp"
+                    android:gravity="center_horizontal|bottom"
+                    android:layout_below="@+id/cardview_notification_distance"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:paddingBottom="15dp"
+                    android:background="@drawable/bld_drop"
+                    android:id="@+id/cardview_notification_bld_grp"
+                    android:text="B+"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"/>
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/cardview_notification_sex_card"
+                    android:layout_marginTop="15dp"
+                    android:drawableLeft="@drawable/location_grey"
+                    android:drawablePadding="5dp"
+
+                    android:layout_marginLeft="20dp"
+                    android:id="@+id/cardview_notification_city"
+                    android:text="Bangalore"
+                    android:textColor="#000"
+                    android:textSize="18sp"/>
+            </RelativeLayout>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ffd1d1d1"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="4dp"
+                    android:src="@drawable/ic_call_black_24dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/name_bottom_color"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Call"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="4dp"
+                    android:src="@drawable/ic_notifications_active_black_24dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/name_bottom_color"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Respond"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="4dp"
+                    android:src="@drawable/ic_location_on_black_24dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/name_bottom_color"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Locate"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="4dp"
+                    android:src="@drawable/ic_more_horiz_black_24dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/name_bottom_color"
+                    android:layout_gravity="center_horizontal"
+                    android:text="More"/>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</android.support.v7.widget.CardView>
+</LinearLayout>

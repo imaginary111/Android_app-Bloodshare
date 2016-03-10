@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg_register"
+    android:orientation="vertical">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:id="@+id/toolbar_request_blood"
+        app:theme="@style/ToolbarColoredBackArrow"
+        android:layout_height="@dimen/abc_action_bar_default_height_material"
+        android:background="@color/ColorPrimary">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:text="Request Blood"
+            android:gravity="center"/>
+
+    </android.support.v7.widget.Toolbar>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" >
+        <EditText
+            android:id="@+id/requester_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/input_register_bg"
+            android:hint="FullName"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:inputType="textCapWords"
+            android:textColor="@color/input_register"
+            android:textColorHint="@color/input_register_hint" />
+
+        <EditText
+            android:id="@+id/requester_phone_no"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/input_register_bg"
+            android:hint="Contact No"
+            android:inputType="number"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/input_register"
+            android:textColorHint="@color/input_register_hint" />
+
+        <EditText
+            android:id="@+id/requester_city"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/input_register_bg"
+            android:hint="City"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:inputType="textCapWords"
+            android:textColor="@color/input_register"
+            android:textColorHint="@color/input_register_hint" />
+        <TextView
+            android:id="@+id/requester_location"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/input_register_bg"
+            android:hint="Select Location"
+            android:padding="12dp"
+            android:singleLine="true"
+            android:inputType="textCapWords"
+            android:textSize="17dp"
+            android:textColor="@color/input_register"
+            android:textColorHint="@color/input_register_hint" />
+        <EditText
+            android:id="@+id/description_requester"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/input_register_bg"
+            android:hint="Description"
+            android:padding="10dp"
+            android:lines="2"
+            android:textColor="@color/input_register"
+            android:textColorHint="@color/input_register_hint" />
+        <RadioGroup
+            android:id="@+id/radioSex_requester"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioMale_requester"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Male"
+                android:checked="true" />
+
+            <RadioButton
+                android:id="@+id/radioFemale_requester"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Female" />
+
+        </RadioGroup>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:textColor="@color/input_register"
+                android:text="Select Blood Group"
+                android:gravity="center"
+                android:layout_height="match_parent" />
+            <Spinner
+                android:spinnerMode="dialog"
+                android:gravity="center"
+                android:id="@+id/blood_group_requester"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:background="#ffc10104"
+                android:padding="10dp"
+                android:text="B+"
+                android:textSize="18dp"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+
+        <!-- Login Button -->
+
+        <Button
+            android:id="@+id/btn_requester"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="#ffea551f"
+            android:text="Create Blood Request"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+</LinearLayout>

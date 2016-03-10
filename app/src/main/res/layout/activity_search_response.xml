@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/ColorPrimary"
+        android:id="@+id/search_res_toolbar"
+        app:theme="@style/ToolbarColoredBackArrow"
+        android:elevation="4dp">
+        <TextView
+            android:layout_width="180dp"
+            android:ellipsize="end"
+            android:layout_height="match_parent"
+            android:singleLine="true"
+            android:gravity="center_vertical"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Koramangala 4thb"
+            android:textColor="#fff"
+            android:id="@+id/search_res_toolbar_text" />
+    </android.support.v7.widget.Toolbar>
+    <FrameLayout
+        android:id="@+id/search_res_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/search_res_toolbar"/>
+
+</RelativeLayout>
