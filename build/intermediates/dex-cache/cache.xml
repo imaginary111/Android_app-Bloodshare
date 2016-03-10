@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/Anubhav/android-sdks/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/Users/Anubhav/BloodLines/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-e9fc31d81c24691fed2d72bc74455954fa3800eb.jar" />
+    </item>
+    <item
+        jar="/Users/Anubhav/BloodLines/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/Anubhav/BloodLines/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-5da8deabb6b9f8d528ded7fa22a89268a959fd60.jar" />
+    </item>
+    <item
+        jar="/Users/Anubhav/BloodLines/app/build/intermediates/exploded-aar/com.github.rey5137/material/1.2.1/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="0040be6592cbfbb19a2c1e90a759278795ed2280">
+        <dex dex="/Users/Anubhav/BloodLines/app/build/intermediates/pre-dexed/debug/classes-1ab906d115d887f9471bafd8e0febd783d564265.jar" />
+    </item>
+    <item
+        jar="/Users/Anubhav/BloodLines/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="/Users/Anubhav/BloodLines/app/build/intermediates/pre-dexed/debug/classes-20f65ae5702b1a3b893735c689784d3183ac2784.jar" />
+    </item>
+    <item
+        jar="/Users/Anubhav/BloodLines/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/22.2.0/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="97f7e239e86ef994de894818fdd8a71d2e89d6aa">
+        <dex dex="/Users/Anubhav/BloodLines/app/build/intermediates/pre-dexed/debug/classes-2ed89857717cab319de8f46b2f595bd30fbd05a0.jar" />
+    </item>
+    <item
+        jar="/Users/Anubhav/BloodLines/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/7.5.0/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="63ec6e9f4fe5482a7447d0f3091b8e543a02554c">
+        <dex dex="/Users/Anubhav/BloodLines/app/build/intermediates/pre-dexed/debug/classes-37ade048bdc10db35d652681124bf9c567975ce1.jar" />
+    </item>
+    <item
+        jar="/Users/Anubhav/BloodLines/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.5.0/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
+        <dex dex="/Users/Anubhav/BloodLines/app/build/intermediates/pre-dexed/debug/classes-6adbb08c338356c896152bb220b6e62d2f67ee90.jar" />
+    </item>
+    <item
+        jar="/Users/Anubhav/BloodLines/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.5.0/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
+        <dex dex="/Users/Anubhav/BloodLines/app/build/intermediates/pre-dexed/debug/classes-a19060c7fdb9e6ee1e92ce2de7cc38a0e157162b.jar" />
+    </item>
+    <item
+        jar="/Users/Anubhav/BloodLines/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.5.0/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="d405025c600055237c171a0bbabaa49d69696573">
+        <dex dex="/Users/Anubhav/BloodLines/app/build/intermediates/pre-dexed/debug/classes-0d85344d83dd5fe48ad5bebe3fe215f0c3877df8.jar" />
+    </item>
+    <item
+        jar="/Users/Anubhav/BloodLines/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.5.0/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="f02127a85abd52a2cd526d4c2409f21969f80ee8">
+        <dex dex="/Users/Anubhav/BloodLines/app/build/intermediates/pre-dexed/debug/classes-26584f668f2035760e89f0fa655de454ee0759b2.jar" />
+    </item>
+    <item
+        jar="/Users/Anubhav/BloodLines/app/libs/gson-2.2.2.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="53bfcd3c8e310d1493b2691484525ed90b04e236">
+        <dex dex="/Users/Anubhav/BloodLines/app/build/intermediates/pre-dexed/debug/gson-2.2.2-844f561a04d599655af05e4f26f55c97d6eaf031.jar" />
+    </item>
+    <item
+        jar="/Users/Anubhav/BloodLines/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.5.0/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="15ad6a46fb8e2ed86556e0b330d738b589dc62c7">
+        <dex dex="/Users/Anubhav/BloodLines/app/build/intermediates/pre-dexed/debug/classes-6d801401055abd1e97e95918fd9a556e542ca6bb.jar" />
+    </item>
+    <item
+        jar="/Users/Anubhav/BloodLines/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.5.0/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="a172852a35ff919e85b9b7f14bbc15c5bee25520">
+        <dex dex="/Users/Anubhav/BloodLines/app/build/intermediates/pre-dexed/debug/classes-e51e47f40340dbbe6a121bf30b567dc12f470f76.jar" />
+    </item>
+    <item
+        jar="/Users/Anubhav/BloodLines/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="a1372c17fccacca753d3951d3ad820571cbce075">
+        <dex dex="/Users/Anubhav/BloodLines/app/build/intermediates/pre-dexed/debug/classes-31bf7f782979db37edc9f7c094f385069555d3f4.jar" />
+    </item>
+    <item
+        jar="/Users/Anubhav/BloodLines/app/libs/ParseFacebookUtilsV4-1.10.1.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="81f498fa332ac7dff56ccbbef03e3d9f96ff67c8">
+        <dex dex="/Users/Anubhav/BloodLines/app/build/intermediates/pre-dexed/debug/ParseFacebookUtilsV4-1.10.1-01e2845acb8b949982b9f47c22b9ba8ee9508670.jar" />
+    </item>
+    <item
+        jar="/Users/Anubhav/BloodLines/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.5.0/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
+        <dex dex="/Users/Anubhav/BloodLines/app/build/intermediates/pre-dexed/debug/classes-b2c0bb2090ca85b9c697afb4124d96a1167f3149.jar" />
+    </item>
+    <item
+        jar="/Users/Anubhav/BloodLines/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.5.0/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
+        <dex dex="/Users/Anubhav/BloodLines/app/build/intermediates/pre-dexed/debug/classes-f54b97f8acde5164598a064ca6776d39a4774859.jar" />
+    </item>
+    <item
+        jar="/Users/Anubhav/BloodLines/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.5.0/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="8d736fefa22d896e84a268354b3ed48a42663150">
+        <dex dex="/Users/Anubhav/BloodLines/app/build/intermediates/pre-dexed/debug/classes-2baa9e56804c432c5357a190d574591fd3c4c87e.jar" />
+    </item>
+    <item
+        jar="/Users/Anubhav/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.2.0/6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd/bolts-android-1.2.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="/Users/Anubhav/BloodLines/app/build/intermediates/pre-dexed/debug/bolts-android-1.2.0-cef16ff17d924c0ee77e905d6555b79478ea3e4f.jar" />
+    </item>
+    <item
+        jar="/Users/Anubhav/BloodLines/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.5.0/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="1a6411087ab88ce5542f593e63a2752b6b0d6f1a">
+        <dex dex="/Users/Anubhav/BloodLines/app/build/intermediates/pre-dexed/debug/classes-adb68db6c081072a7c0ac239b8b297272bb29079.jar" />
+    </item>
+    <item
+        jar="/Users/Anubhav/BloodLines/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.5.0/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="8e3a972f28b8bae817e382257ba177a31bcadbbc">
+        <dex dex="/Users/Anubhav/BloodLines/app/build/intermediates/pre-dexed/debug/classes-dbe41fd455d07b6db3dda2aa15e492aa763d7899.jar" />
+    </item>
+    <item
+        jar="/Users/Anubhav/BloodLines/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.5.0/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="6836d188602ec5382d1967c58b00960eb8ff8773">
+        <dex dex="/Users/Anubhav/BloodLines/app/build/intermediates/pre-dexed/debug/classes-8b8e3b9613d4d54baeeb05bc2f9d5d56997949fe.jar" />
+    </item>
+    <item
+        jar="/Users/Anubhav/BloodLines/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.5.0/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
+        <dex dex="/Users/Anubhav/BloodLines/app/build/intermediates/pre-dexed/debug/classes-c19299fd79dc3600f336d6973f9fde4d4ff88721.jar" />
+    </item>
+    <item
+        jar="/Users/Anubhav/BloodLines/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.5.0/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="ba207be21987c11b37d9f8faa08ed6e722569f30">
+        <dex dex="/Users/Anubhav/BloodLines/app/build/intermediates/pre-dexed/debug/classes-61d20220d49786c51f0eb66f60c044ce2463260c.jar" />
+    </item>
+    <item
+        jar="/Users/Anubhav/BloodLines/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/Anubhav/BloodLines/app/build/intermediates/pre-dexed/debug/classes-61b88a6415163d90d7c26455ea5902ecb4d24f32.jar" />
+    </item>
+    <item
+        jar="/Users/Anubhav/BloodLines/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="ba3df4eb0a630d7de294f0e48d3f9267d279b784">
+        <dex dex="/Users/Anubhav/BloodLines/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-3387463cda8eb1bb9d0cb512ab423885a46b369c.jar" />
+    </item>
+    <item
+        jar="/Users/Anubhav/BloodLines/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.5.0/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="272bc5d7063f24bc3a33ea1d318cde8f31f5ec4c">
+        <dex dex="/Users/Anubhav/BloodLines/app/build/intermediates/pre-dexed/debug/classes-09f2e38891744fbe7f284148e9f77f9ff789b96a.jar" />
+    </item>
+    <item
+        jar="/Users/Anubhav/BloodLines/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/Users/Anubhav/BloodLines/app/build/intermediates/pre-dexed/debug/classes-2d51919892c3faaa954329edc39a315166321e15.jar" />
+    </item>
+    <item
+        jar="/Users/Anubhav/BloodLines/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.5.0/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="68c140702c7242d914655bcb3164d9e8c45b84cb">
+        <dex dex="/Users/Anubhav/BloodLines/app/build/intermediates/pre-dexed/debug/classes-d340788be3a5c2ea3bea98b4e0dc0c67fe5b5e89.jar" />
+    </item>
+    <item
+        jar="/Users/Anubhav/BloodLines/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
+        <dex dex="/Users/Anubhav/BloodLines/app/build/intermediates/pre-dexed/debug/classes-4b456844fe4d134053a560ffb6300e2189b72047.jar" />
+    </item>
+    <item
+        jar="/Users/Anubhav/BloodLines/app/libs/Parse-1.10.1.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="181b435832725bec96c11ff568bdfbccdacab944">
+        <dex dex="/Users/Anubhav/BloodLines/app/build/intermediates/pre-dexed/debug/Parse-1.10.1-37b987625bd325e58d817afbf9ba3e21ed3c55ac.jar" />
+    </item>
+    <item
+        jar="/Users/Anubhav/BloodLines/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.5.0/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="02bac2dc792d78241077861566f2c82da955e7fa">
+        <dex dex="/Users/Anubhav/BloodLines/app/build/intermediates/pre-dexed/debug/classes-e2dadf09a1d0edd21436cad24c9b9e96b58c909f.jar" />
+    </item>
+    <item
+        jar="/Users/Anubhav/BloodLines/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.5.0/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
+        <dex dex="/Users/Anubhav/BloodLines/app/build/intermediates/pre-dexed/debug/classes-c6cd0a2efbb25cac4cbdc6f7bb0fbe1639d79cf2.jar" />
+    </item>
+    <item
+        jar="/Users/Anubhav/BloodLines/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.5.0/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="f44d03c138cb6488fdbaa65e3a7e5878861a56d8">
+        <dex dex="/Users/Anubhav/BloodLines/app/build/intermediates/pre-dexed/debug/classes-3ef66f858ce7d2dc65b5013da8f97d1ff1a169c6.jar" />
+    </item>
+    <item
+        jar="/Users/Anubhav/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/Anubhav/BloodLines/app/build/intermediates/pre-dexed/debug/picasso-2.5.2-acb66eb23b2cea4f71b74990c064a1445952721c.jar" />
+    </item>
+
+</items>
